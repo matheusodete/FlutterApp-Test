@@ -33,7 +33,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
           children: [
             CircleAvatar(
               radius: 40,
-              backgroundImage: AssetImage('images/anonimous.jpg'), // Imagem de perfil
+              backgroundImage:
+                 AssetImage('images/pp.jpg'), // Imagem de perfil
             ),
             SizedBox(height: 20),
             StyledInputField.instantiate(

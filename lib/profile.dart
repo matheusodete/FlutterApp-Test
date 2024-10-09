@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/DesignSystem/Components/BottomTabBar/bottom_tab_bar.dart';
 import 'package:flutter_application_1/DesignSystem/Components/BottomTabBar/bottom_tab_bar_view_model.dart';
 import 'package:flutter_application_1/DesignSystem/shared/colors.dart';
+import 'package:flutter/gestures.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -32,7 +33,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 CircleAvatar(
                   radius: 40,
                   backgroundImage:
-                      AssetImage('../lib//DesignSystem/images/login_image.jpg'), // Imagem de perfil
+                      AssetImage('images/pp.jpg'), // Imagem de perfil
                 ),
                 SizedBox(width: 16),
                 Column(
