@@ -33,7 +33,7 @@ class _LoginScreenState extends State<LoginScreen> {
             CircleAvatar(
               radius: 40,
               backgroundImage:
-                  AssetImage('assets/profile_pic.jpg'), // Imagem de perfil
+                  AssetImage('assets/pp.jpg'), // Imagem de perfil
             ),
             SizedBox(height: 20),
             StyledInputField.instantiate(
